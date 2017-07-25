@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notify!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text_view">Title:</string>
+    <string name="text_text_view">Text:</string>
+    <string name="color_text_view">Color:</string>
+    <string name="progress_bar_switch">Progress Bar?</string>
+    <string name="progress_seconds">Seconds:</string>
+    <string name="progress_message">Message:</string>
+    <string name="time_text">How long until being notified?</string>
+    <string name="minutes">Minutes:</string>
+    <string name="seconds">Seconds:</string>
+    <string name="notification_title">Create a new notification</string>
+</resources>
