@@ -23,8 +23,6 @@ public class NotificationBroadcaster extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        Toast.makeText(context,"GOT HERE!",Toast.LENGTH_LONG).show();
-
         // Create the Notification
         final NotificationCompat.Builder mBuilder = (NotificationCompat.Builder) new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.ic_stat_access_alarms)
@@ -46,6 +44,7 @@ public class NotificationBroadcaster extends BroadcastReceiver {
         notificationManager.notify(0,notification);
 
         // If it has a progress bar, update the progress bar over a period of time
+        // Using a thread. The thread updates the progress bar every 5 seconds, a total of 20 times
         if(hasProgress) {
             new Thread(
                     new Runnable() {

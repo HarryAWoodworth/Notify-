@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // On selecting a spinner item
         String colorStr = parent.getItemAtPosition(position).toString();
 
+        // Set the colorID based on the String from the Spinner, default to Color.LTGRAY
         switch(colorStr){
             case "Black": colorID = Color.BLACK; break;
             case "Blue": colorID = Color.BLUE; break;
