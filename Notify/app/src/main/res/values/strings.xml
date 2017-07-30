@@ -6,9 +6,12 @@
     <string name="color_text_view">Color:</string>
     <string name="progress_bar_switch">Progress Bar?</string>
     <string name="progress_seconds">Seconds:</string>
-    <string name="progress_message">Message:</string>
+    <string name="progress_message">End Message:</string>
     <string name="time_text">How long until being notified?</string>
     <string name="minutes">Minutes:</string>
     <string name="seconds">Seconds:</string>
     <string name="notification_title">Create a new notification</string>
+    <string name="appId">ca-app-pub-9104252265225090~4548824531</string>
+    <string name="adId">ca-app-pub-9104252265225090/2424212315</string>
+    <string name="notify_button">Send Notification!</string>
 </resources>

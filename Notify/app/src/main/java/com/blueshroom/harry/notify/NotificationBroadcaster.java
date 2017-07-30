@@ -56,9 +56,7 @@ public class NotificationBroadcaster extends BroadcastReceiver {
                                 notificationManager.notify(0,mBuilder.build());
                                 try{
                                     Thread.sleep(2*1000);
-                                } catch (InterruptedException e) {
-                                    Log.d("SLEEP ERROR","Sleep Failure");
-                                }
+                                } catch (InterruptedException e) {}
                             }
                             mBuilder.setContentText(progress_end)
                                     // Removes the progress bar
